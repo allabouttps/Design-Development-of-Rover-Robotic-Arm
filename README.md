@@ -1,6 +1,6 @@
-# 🤖 Rover Robotic Arm
+# 🤖 Rover-Robotic Arm
 
-A Wi-Fi controlled **Rover Robotic Arm** built using **ESP32**, **DC Motors**, **Servo Motors**, and **3D Printed Components**. The project combines a mobile robotic rover with a multi-degree-of-freedom robotic arm capable of object handling, navigation, and real-time remote control through a web-based interface.
+A Wi-Fi controlled **Rover Robotic Arm** built using **ESP32 microcontoller**, **DC Motors**, **Servo Motors**, **3D Printed Components** and **other mentioned components**.The project combines a mobile robotic 4 wheeled rover with a multi-degree-of-freedom robotic arm capable of object handling, industrial purposes, navigation, and real-time remote control through a web-based interface. This project has been developed with the assistance of various academic and online resources, including tutorials and reference materials, which have been carefully studied, analysed, and implemented by us in our own understanding. 
 
 ---
 
@@ -8,15 +8,27 @@ A Wi-Fi controlled **Rover Robotic Arm** built using **ESP32**, **DC Motors**, *
 
 ### Rover Platform
 
-![Rover](images/rover.jpg)
+<img width="722" height="532" alt="chasissss" src="https://github.com/user-attachments/assets/9799831d-5c76-44c4-a7d0-c9ca8ce7ff69" />
+
 
 ### Robotic Arm
 
-![Robotic Arm](images/robotic-arm.jpg)
+<img width="1024" height="1536" alt="3D-printed robotic arm on square base" src="https://github.com/user-attachments/assets/1446d608-4acd-4659-96ce-3fcc408a753d" />
+
+### Robotic Arm Gripper
+
+<img width="553" height="466" alt="gripper" src="https://github.com/user-attachments/assets/db9683c0-9bc1-4678-a4e5-097a8749b8b4" />
 
 ### Complete System
 
-![Complete System](images/system.jpg)
+<img width="1189" height="1323" alt="complete system" src="https://github.com/user-attachments/assets/25e927b6-3199-4462-b503-12b005528525" />
+
+### Circuit Diagram
+
+<img width="1356" height="768" alt="circuit diagram" src="https://github.com/user-attachments/assets/2c9d6595-7d86-4f13-b2b6-8305163c7b81" />
+
+
+**Note**: This diagram is intended for conceptual system representation. Final wiring, GPIO assignments, and hardware connections should be verified against the latest source code and component specifications before implementation.
 
 ---
 
@@ -24,7 +36,9 @@ A Wi-Fi controlled **Rover Robotic Arm** built using **ESP32**, **DC Motors**, *
 
 The rover and robotic arm are controlled through a custom web interface hosted directly on the ESP32.
 
-![Web Controller](images/web-controller.jpg)
+<img width="809" height="1942" alt="web contoller" src="https://github.com/user-attachments/assets/c8b19799-70c7-402a-948f-3d4119d21914" />
+
+
 
 ---
 
@@ -33,7 +47,7 @@ The rover and robotic arm are controlled through a custom web interface hosted d
 Watch the project in action:
 
 🔗 **Demo Video:**  
-https://your-video-link-here
+https://youtu.be/ZPAJIUnQEEs-link-here
 
 ---
 
@@ -137,7 +151,7 @@ ESP32 Wi-Fi Access Point
 - Arduino IDE
 - ESP32 Board Package
 - Embedded C/C++
-
+- Libraries
 
 ---
 
