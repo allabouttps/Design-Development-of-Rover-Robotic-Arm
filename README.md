@@ -1,7 +1,7 @@
 # 🤖 Rover Robotic Arm
 
 A Wi-Fi controlled **Rover Robotic Arm** built using **ESP32**, **DC Motors**, **Servo Motors**, and **3D Printed Components**.  
-This project integrates a **4-wheeled mobile rover** with a **multi-degree-of-freedom robotic arm** capable of object handling, navigation, and real-time wireless control through a web-based interface.
+This project integrates a **4-wheeled mobile rover** with a **multi-degree-of-freedom robotic arm** capable of object handling and real-time wireless control through a web-based interface.
 
 ---
 
@@ -22,7 +22,7 @@ This project integrates a **4-wheeled mobile rover** with a **multi-degree-of-fr
 ### Circuit Diagram
 ![Circuit Diagram](https://github.com/user-attachments/assets/2c9d6595-7d86-4f13-b2b6-8305163c7b81)
 
-> ⚠️ Note: The circuit diagram is for conceptual understanding. Always verify GPIO pins and connections from the latest code before implementation.
+> ⚠️ Note: The circuit diagram is for reference. Always verify GPIO pins from the latest code before implementation.
 
 ---
 
@@ -42,11 +42,11 @@ The ESP32 hosts a web server that allows real-time control from any browser.
 
 ## 📖 Overview
 
-The Rover Robotic Arm is a system that combines a moving rover with a robotic arm. The rover can move in different directions, and the arm is used to pick and place objects.
+The Rover Robotic Arm combines a mobile rover with a robotic arm. The rover can move in different directions, and the arm is used to pick and place objects.
 
-The ESP32 is used as the main controller to control both the movement and the arm. The system works on Wi-Fi, so it can be controlled wirelessly using a web interface.
+The ESP32 acts as the main controller, managing both movement and arm operations. The system works over Wi-Fi and is controlled through a web interface.
 
-Overall, the project is designed to perform pick-place, record-play, movement and object handling in a simple and efficient way.
+Overall, the project is designed for simple and efficient movement and object handling.
 
 ---
 
@@ -82,7 +82,7 @@ Servo Motors (Robotic Arm)
 ## ⚙️ Working Principle
 
 ### 🚗 Rover Movement
-The ESP32 sends signals to the L298N motor driver, which controls DC motors for movement:
+The ESP32 sends signals to the L298N motor driver to control movement:
 
 - Forward  
 - Backward  
@@ -152,7 +152,7 @@ Servo motors control:
 - ESP32 with Built-in Wi-Fi  
 - Embedded Web Server  
 - PWM-Based Servo Control  
-- Efficient Power Management using Buck Converter  
+- Efficient Power Management  
 - Real-Time Wireless Control  
 - Expandable for AI & IoT  
 
@@ -175,13 +175,12 @@ Servo motors control:
 ---
 
 ## 📌 Applications
-- Sample Collection  
 - Pick-and-Place  
-- Material Handling
-- Electronics Learning  
-- Embedded Systems
-- Robotics
-- Industrial Automation
+- Material Handling  
+- Robotics Learning  
+- Embedded Systems  
+- Industrial Automation  
+
 ---
 
 ## 🔮 Future Improvements
@@ -191,7 +190,7 @@ Servo motors control:
 - Computer Vision  
 - Voice Control  
 - GPS Tracking  
-- IoT Cloud Monitoring
+- IoT Cloud Monitoring  
 
 ---
 
