@@ -1,7 +1,7 @@
 # 🤖 Rover Robotic Arm
 
 A Wi-Fi controlled **Rover Robotic Arm** built using **ESP32**, **DC Motors**, **Servo Motors**, and **3D Printed Components**.  
-This project integrates a **4-wheeled mobile rover** with a **multi-degree-of-freedom robotic arm** capable of object handling and real-time wireless control through a web-based interface.
+This project integrates a **4-wheeled mobile rover** with a **multi-degree-of-freedom robotic arm** capable of object handling, pick-place, industrial automation and real-time wireless control through a web-based interface.
 
 ---
 
