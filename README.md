@@ -42,14 +42,11 @@ The ESP32 hosts a web server that allows real-time control from any browser.
 
 ## 📖 Overview
 
-The system is designed for environments where human intervention is difficult or unsafe.  
-It combines:
+The Rover Robotic Arm is a system that combines a moving rover with a robotic arm. The rover can move in different directions, and the arm is used to pick and place objects.
 
-- Mobility (Rover)
-- Manipulation (Robotic Arm)
-- Wireless Control (Wi-Fi)
+The ESP32 is used as the main controller to control both the movement and the arm. The system works on Wi-Fi, so it can be controlled wirelessly using a web interface.
 
-The ESP32 acts as the central controller, processing commands and controlling motors in real time.
+Overall, the project is designed to perform pick-place, record-play, movement and object handling in a simple and efficient way.
 
 ---
 
