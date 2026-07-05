@@ -34,7 +34,7 @@ The ESP32 hosts a web server that allows real-time control from any browser.
 
 ---
 
-## 🎥 Demonstration Video
+## 🎥 Demonstration
 
 🔗 https://youtu.be/ZPAJIUnQEEs
 
@@ -61,7 +61,6 @@ Overall, the project is designed for simple and efficient movement and object ha
 - 🔋 Battery Powered System
 - 📏 Obstacle Detection (Ultrasonic Sensor)
 - 📱 Mobile-Friendly Interface
-- 🔧 Modular Design
 
 ---
 
@@ -96,18 +95,10 @@ The ESP32 sends signals to the L298N motor driver to control movement:
 Servo motors control:
 
 - Base Rotation  
-- Shoulder  
-- Elbow  
-- Wrist  
-- Gripper  
-
----
-
-### 📶 Wireless Communication
-- ESP32 creates a Wi-Fi Access Point  
-- User connects via mobile/laptop  
-- Commands sent through web interface  
-- Real-time response  
+- Shoulder movement
+- Elbow movement
+- Wrist movement
+- Gripper movement
 
 ---
 
@@ -149,8 +140,7 @@ Servo motors control:
 ---
 
 ## 🔥 Technical Highlights
-- ESP32 with Built-in Wi-Fi  
-- Embedded Web Server  
+- ESP32
 - PWM-Based Servo Control  
 - Efficient Power Management  
 - Real-Time Wireless Control  
@@ -176,7 +166,7 @@ Servo motors control:
 
 ## 📌 Applications
 - Pick-and-Place  
-- Material Handling  
+- Object Handling  
 - Robotics Learning  
 - Embedded Systems  
 - Industrial Automation  
@@ -185,8 +175,8 @@ Servo motors control:
 
 ## 🔮 Future Improvements
 - AI Object Detection  
-- Autonomous Navigation  
-- Camera Integration  
+- Autonomous Navigation
+- ESP32-Camera Integration  
 - Computer Vision  
 - Voice Control  
 - GPS Tracking  
@@ -196,7 +186,7 @@ Servo motors control:
 
 ## 👨‍💻 Team
 
-**Diploma in Electronics Engineering**  
+**Diploma in Electronics Engineering Batch 2023-2026**  
 **Ambedkar DSEU Shakarpur Campus-I**
 
 - Thakur Prasad Sharma  
