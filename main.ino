@@ -5,7 +5,7 @@
 #include <ESP32Servo.h>
 
 // ================= WIFI =================
-const char* ssid = "RobotArm_Vikas_Vishal_Sudhir";
+const char* ssid = "RobotArm_Vikas_Vishal_Sudhir_thakur";
 const char* password = "12345678";
 
 AsyncWebServer server(80);
